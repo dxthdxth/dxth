@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>AMC PORTAL</title>
+     <link rel="icon" href="download.png">
+     <link rel="stylesheet" href="studentlogin.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <center>
+        <img class="logo" src="download.png" width="250" height="170">
+        <h1>ADMINISTRATIVE MANAGEMENT <br>COLLEGE</h1>
+        <p>AMC Campus, Bannerghatta Rd, Bengaluru, Karnataka 560083</p>
+        <marquee style="color: rgb(87, 91, 98);">------welcome to our login page------</marquee>
+    </center>
+    <div class="fullbar">
+        <div class="navtag1" onclick="add()">☰</div>
+        <div class="navtag2">Home</div>
+        <div class="navtag3">Login</div>
+    </div>
+    <div class="navbox">
+        <h4 style="font-family:Verdana, Geneva, Tahoma, sans-serif; text-decoration: underline ">NAVIGATION BAR</h4>
+        <h5 style="padding-top: 10px;">About</h5>
+        <h5>Contact US</h5>
+        <h5>Career</h5>
+    </div>
+    <script>
+    var layout=document.querySelector(".navbox")
+    var nav=document.querySelector(".navtag1")
+    function add()
+    {
+        nav.style.display="block"
+        layout.style.display="block"
+    }
+    </script>
+    <center>
+
+    </center>
+    <center>
+        <div class="loginbox">
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">login</h1><br>
+            <h4 class="inputname1"><i class="fa-solid fa-user"></i>Student</h4><input type="text" class="student" placeholder="Enter your ID"><br>
+            <h4 class="inputname2"><i class="fa-solid fa-key"></i>Password</h4><input type="text" class="pass" placeholder="Enter your password"><br>
+            <input type="submit" class="loginbutton" value="lagin"><br>
+            <div class="singup">
+                <a>i don't have account?</a><a style="text-decoration: underline" href="signup.html">SignUp</a><br>
+            </div>
+            <p>------------or------------</p><br>
+            <div class="icon">
+                <i class="fab fa-google"></i>
+            </div>
+            <div class="icon1">
+                <i class="fab fa-facebook"></i>
+            </div>
+        </center>
+        <div class="lastbar">
+            © 2025 studentlogin Inc. All rights reserved.
+        </div>
+        </div>
+</body>
+</html>
